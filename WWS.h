@@ -1,9 +1,10 @@
 #pragma once
-#include "stdafx.h"
 #ifdef WWS_EXPORTS
 #define WWSDLL_API __declspec(dllexport)
+#include "stdafx.h"
 #else
 #define WWSDLL_API __declspec(dllimport)
+#include "types.h"
 #endif
 namespace WWS {
 	/*****************************************************
